@@ -18,6 +18,6 @@ return [
     */
 
     'quotes' => [
-        'For every Sage there is an Acorn.',
+        'Such a lovely breadcrumb.',
     ],
 ];

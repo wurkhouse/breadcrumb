@@ -7,13 +7,13 @@ This repo can be used to scaffold an Acorn package. See the [Acorn Package Devel
 You can install this package with Composer:
 
 ```bash
-composer require vendor-name/example-package
+composer require wurkhouse/breadcrumb
 ```
 
 You can publish the config file with:
 
 ```shell
-$ wp acorn vendor:publish --provider="VendorName\ExamplePackage\Providers\ExampleServiceProvider"
+$ wp acorn vendor:publish --provider="Wurkhouse\Breadcrumb\Providers\BreadcrumbServiceProvider"
 ```
 
 ## Usage
@@ -21,11 +21,11 @@ $ wp acorn vendor:publish --provider="VendorName\ExamplePackage\Providers\Exampl
 From a Blade template:
 
 ```blade
-@include('Example::example')
+@include('Breadcrumb::breadcrumb')
 ```
 
 From WP-CLI:
 
 ```shell
-$ wp acorn example
+$ wp acorn breadcrumb
 ```

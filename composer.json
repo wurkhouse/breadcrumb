@@ -1,17 +1,17 @@
 {
-  "name": "vendor-name/example-package",
+  "name": "wurkhouse/breadcrumb",
   "type": "package",
-  "description": "An example package for Roots Acorn.",
+  "description": "Wurkhouse Breadcrumb package for Roots Acorn.",
   "license": "MIT",
   "authors": [
     {
-      "name": "Brandon Nifong",
-      "email": "brandon@tendency.me"
+      "name": "Wurkhouse",
+      "email": "web@wurkhouse.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "VendorName\\ExamplePackage\\": "src/"
+      "Wurkhouse\\Breadcrumb\\": "src/"
     }
   },
   "require": {
@@ -20,10 +20,10 @@
   "extra": {
     "acorn": {
       "providers": [
-        "VendorName\\ExamplePackage\\Providers\\ExampleServiceProvider"
+        "Wurkhouse\\Breadcrumb\\Providers\\Breadcrumb"
       ],
       "aliases": {
-        "Example": "VendorName\\ExamplePackage\\Facades\\Example"
+        "Breadcrumb": "Wurkhouse\\Breadcrumb\\Facades\\Breadcrumb"
       }
     }
   }

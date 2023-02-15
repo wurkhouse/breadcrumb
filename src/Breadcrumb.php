@@ -1,11 +1,11 @@
 <?php
 
-namespace VendorName\ExamplePackage;
+namespace Wurkhouse\Breadcrumb;
 
 use Illuminate\Support\Arr;
 use Roots\Acorn\Application;
 
-class Example
+class Breadcrumb
 {
     /**
      * The application instance.
@@ -33,7 +33,7 @@ class Example
     public function getQuote()
     {
         return Arr::random(
-            config('example.quotes')
+            config('breadcrumb.quotes')
         );
     }
 }
